@@ -1,0 +1,3 @@
+gmail_pass="hehe0090"
+
+openai_key="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"
