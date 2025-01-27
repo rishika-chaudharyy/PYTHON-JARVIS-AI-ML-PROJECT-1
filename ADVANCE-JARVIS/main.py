@@ -164,7 +164,7 @@ def main_process():
           request=request.replace("search google ","")
           webbrowser.open("https://www.google.com/search?q="+request)
         elif "send whatsapp" in request:
-          pwk.sendwhatmsg("+918200427668", "Hi", 12, 26,30)
+          pwk.sendwhatmsg("number", "Hi", 12, 26,30)
         elif "send mail" in request:
             pwk.send_mail("richuuka009@gmail.com", user_config.gmail_pass, "hello" ,"Hello,How are you?","rishikach009@gmail.com") 
             speak("Email sent")
